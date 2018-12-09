@@ -1,0 +1,533 @@
+O:52:"ShopwarePlugins\SwagUpdate\Components\Struct\Version":9:{s:7:"version";s:5:"5.5.4";s:7:"isNewer";b:0;s:9:"changelog";a:2:{s:2:"de";a:5:{s:2:"id";s:3:"212";s:9:"releaseId";N;s:8:"language";s:2:"de";s:9:"changelog";s:20397:"<style type="text/css">
+	.swag-update-changelog a { color: #089eff; }
+	.release-information {
+		position: relative;
+		margin:20px;
+		font-family:'Open Sans', Arial, sans-serif;
+		color: #5C6F7C;
+		font-size:14px;
+	}
+
+	.release-information p {
+		line-height: 20px;
+		margin-bottom:20px;
+	}
+
+	.release-information h1,
+	.release-information h2,
+	.release-information h3,
+	.release-information h4,
+	.release-information h5,
+	.release-information h6 {
+		font-size: 20px;
+		color: #0E384F;
+		font-weight: 600;
+		padding-bottom: 10px;
+		margin-top: 20px;
+		border-bottom: 1px solid #ccd6cd;
+	}
+
+	.release-information h2 {
+		font-size: 30px;
+		font-weight: 700;
+	}
+
+	.release-information h3 {
+		border-bottom: none;
+		color: #089eff;
+		padding-bottom: 30px;
+	}
+
+	.release-information h4 {
+		font-size: 16px;
+		border: none;
+		margin: 0;
+		padding-bottom: 6px;
+	}
+
+	.release-information h2.hero-headline {
+		font-size: 30px;
+		font-weight: bold;
+		text-align: center;
+		padding-bottom: 20px;
+		border-bottom: 0 none;
+		color: #142432;
+	}
+	.release-information h2.hero-headline:after {
+		display: block;
+		content: '';
+		width: 60px;
+		height: 4px;
+		margin: 0 auto;
+		text-align: center;
+		background: #189eff;
+		margin-top: 7px;
+	}
+
+	.release-information h3.sub-headline {
+		color: #142432;
+		font-weight: bold;
+	}
+
+	.release-information h3.sub-headline:after {
+		display: block;
+		content: '';
+		width: 40px;
+		height: 4px;
+		background: #189eff;
+		margin-top: 5px;
+	}
+
+	span.release-update-icon {
+		background: url('data:image/png;base64,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') no-repeat;
+		width: 52px;
+		height: 52px;
+		right: 20px;
+		top: 15px;
+		position: absolute;
+	}
+
+
+	.release-feature-more-info a{
+		color: #089EFF;
+		font-size: 16px;
+	}
+
+
+	.release-feature-entry p {
+		line-height: 20px;
+	}
+
+
+	/*** Github Buttons ***/
+	.release-github-buttons {
+		border-top: 1px solid #ccd6cd;
+		margin-bottom: 40px;
+		width: 100%;
+		float: left;
+	}
+
+	.release-github-buttons-inner {
+		padding-top: 30px;
+	}
+
+	.release-github-buttons a {
+		background: #189eff;
+		border-radius: 4px;
+		border: none;
+		font-weight: bold;
+		color: #fff;
+		text-decoration: none;
+		margin-right: 10px;
+		padding: 10px 25px;
+		text-align: center;
+		font-size: 14px;
+	}
+	.release-github-buttons span {
+		text-align: center;
+	}
+
+	.release-github-buttons a:hover {
+		background: rgb(0,186,241);
+	}
+
+	.release-github-buttons a.last {
+		margin-right: 0;
+	}
+
+	.alert {
+		padding: 10px 20px;
+		margin-bottom: 20px;
+		border: 2px solid rgba(0, 0, 0, 0);
+		border-radius: 5px;
+		-webkit-border-radius: 5px;
+		-moz-border-radius: 5px;
+		line-height: 26px;
+	}
+
+	.alert-info {
+		background: rgba(225, 244, 252, 1);
+		color: rgba(0, 120, 185, 1);
+		border: 1px solid rgba(141, 215, 247, 1);
+		position: relative;
+		padding-right: 80px;
+	}
+
+	.alert-warning, .alert-error {
+		color: #825900;
+		border-color: rgba(255, 183, 28, 0.4);
+		background: rgba(255, 183, 28, 0.2);
+		position: relative;
+		padding-right: 80px;
+	}
+
+	ul li {
+		list-style: disc;
+		margin-left: 20px;
+		padding-bottom: 10px;
+	}
+
+</style>
+
+<!-- Title -->
+<div class="release-information">
+
+	<h2 class="hero-headline">Shopware Version 5.5.4 </h2>
+
+	<div class="alert alert-info">
+		<span class="release-update-icon"></span>
+		<p style="font-weight: 700;">Wichtige Updateinformationen</p>
+		<p>Sollten Sie beim Update Versionen überspringen, beachten Sie bitte alle <a href="http://community.shopware.com/Downloads_cat_448.html" target="_blank">Updateinformationen</a> zwischen Ihrer momentanen Version und der Version auf die Sie updaten wollen.</p>
+		<p style="margin-bottom: 20px">Dieses Update-Paket ist kumulativ und beinhaltet Fehler-Korrekturen und neue Features.</p>
+	</div>
+
+	
+
+	<h3 class="sub-headline">Wichtige Anpassungen</h3>
+	
+                    
+                        <h4>Sicherheitsupdate</h4>
+                        <p>Weitere Informationen finden Sie <a href="https://community.shopware.com/_detail_2094.html" target="_blank">hier</a>.</p>
+                        <br>
+                        <p>SW-23008 - SW-23012: Diese Sicherheitsschwachstellen wurde von <a href="https://mschop.de" target="_blank">mschop</a> identifiziert.</p>
+                    
+                
+
+	<h3 class="sub-headline">Changelog</h3>
+	<div style="margin-top: -30px;">
+                    
+<p>
+     <br/><strong><a href="https://issues.shopware.com/issues/SW-17962" target="_blank">SW-17962</a> - </strong>Einen Fehler im jQuery Modal Plugin gefixt <a href="https://github.com/tyurderi" target="_blank">(tyurderi)</a>
+     <br/><strong><a href="https://issues.shopware.com/issues/SW-18078" target="_blank">SW-18078</a> - </strong>Die Konfiguration für den Shop Mailer wurden auf Auswahlfelder geändert, um eine einfachere Bedienung zu ermöglichen
+     <br/><strong><a href="https://issues.shopware.com/issues/SW-19337" target="_blank">SW-19337</a> - </strong>SELECT-Statement für SEO-Query präzisiert <a href="https://github.com/s-jakob" target="_blank">(s-jakob)</a>
+     <br/><strong><a href="https://issues.shopware.com/issues/SW-19565" target="_blank">SW-19565</a> - </strong>Cronjob Einträge werden nicht mehr doppelt angelegt bei Plugin Updates <a href="https://github.com/DerRidda" target="_blank">(DerRidda)</a>
+     <br/><strong><a href="https://issues.shopware.com/issues/SW-19823" target="_blank">SW-19823</a> - </strong>Rest API Batch Modus Recovery repariert <a href="https://github.com/shyim" target="_blank">(shyim)</a>
+     <br/><strong><a href="https://issues.shopware.com/issues/SW-20020" target="_blank">SW-20020</a> - </strong>Rest API Konfigurationsgruppen werden nun lowercase verglichen <a href="https://github.com/DerRidda" target="_blank">(DerRidda)</a>
+     <br/><strong><a href="https://issues.shopware.com/issues/SW-20236" target="_blank">SW-20236</a> - </strong>Root-Verzeichnis wird nun über dirname() und nicht mehr über realpath() generiert, um unerwartetes Verhalten bei Verwendung von Streams zu verhindern <a href="https://github.com/fionera" target="_blank">(fionera)</a>
+     <br/><strong><a href="https://issues.shopware.com/issues/SW-20377" target="_blank">SW-20377</a> - </strong>Regex zum Umschreiben von Medien-Dateinamen erweitert, sodass bisher nicht berücksichtigte Sonderzeichen ebenfalls berücksichtigt und ersetzt werden <a href="https://github.com/wbob" target="_blank">(wbob)</a>
+     <br/><strong><a href="https://issues.shopware.com/issues/SW-20399" target="_blank">SW-20399</a> - </strong>Dokument Boxen werden bei neuen Einträgen nicht angezeigt <a href="https://github.com/windaishi" target="_blank">(windaishi)</a>
+     <br/><strong><a href="https://issues.shopware.com/issues/SW-20498" target="_blank">SW-20498</a> - </strong>Funktionale Tests für Plugins verbessert <a href="https://github.com/wesolowski" target="_blank">(wesolowski)</a>
+     <br/><strong><a href="https://issues.shopware.com/issues/SW-20583" target="_blank">SW-20583</a> - </strong>Eigenschaften angepasst, damit diese den Vorgaben für strukturierte Daten gemäß dem Google Test Tool entsprechen <a href="https://github.com/marvinschroeder" target="_blank">(marvinschroeder)</a>
+     <br/><strong><a href="https://issues.shopware.com/issues/SW-20598" target="_blank">SW-20598</a> - </strong>Einstellung zum Experten-Modus in Textbaustein-Modul wird nun gespeichert <a href="https://github.com/shyim" target="_blank">(shyim)</a>
+     <br/><strong><a href="https://issues.shopware.com/issues/SW-20612" target="_blank">SW-20612</a> - </strong>Datei Berechtigungen von Template Cache nun konfigurierbar <a href="https://github.com/Crease29" target="_blank">(Crease29)</a>
+     <br/><strong><a href="https://issues.shopware.com/issues/SW-20648" target="_blank">SW-20648</a> - </strong>Umsatzsteuernummer aus Bestellung für Dokumente verwenden wenn enthalten <a href="https://github.com/Gugiman" target="_blank">(Gugiman)</a>
+     <br/><strong><a href="https://issues.shopware.com/issues/SW-20708" target="_blank">SW-20708</a> - </strong>Code-Style verbessert <a href="https://github.com/uehler" target="_blank">(uehler)</a>
+     <br/><strong><a href="https://issues.shopware.com/issues/SW-20735" target="_blank">SW-20735</a> - </strong>changetime zu Artikel Informationen in Smarty hinzugefügt <a href="https://github.com/larsbo" target="_blank">(larsbo)</a>
+     <br/><strong><a href="https://issues.shopware.com/issues/SW-21126" target="_blank">SW-21126</a> - </strong>Behebt leere Warenkörbe bei Schnellbestellern mit existierendem SLT-Cookie
+     <br/><strong><a href="https://issues.shopware.com/issues/SW-21161" target="_blank">SW-21161</a> - </strong>Neuer Grunt Task "development" <a href="https://github.com/dasistweb-gmbh" target="_blank">(dasistweb-gmbh)</a>
+     <br/><strong><a href="https://issues.shopware.com/issues/SW-21180" target="_blank">SW-21180</a> - </strong>API Resourcen werden automatisch konfiguriert <a href="https://github.com/fivetide" target="_blank">(fivetide)</a>
+     <br/><strong><a href="https://issues.shopware.com/issues/SW-21229" target="_blank">SW-21229</a> - </strong>Freitextfeldverwaltung können nun als Select Länder ausgewählt werden <a href="https://github.com/pascalheidman-bedarf" target="_blank">(pascalheidman-bedarf)</a>
+     <br/><strong><a href="https://issues.shopware.com/issues/SW-21307" target="_blank">SW-21307</a> - </strong>Ajax Suche benutzt nun auch Mindest Suchmenge <a href="https://github.com/fmaasde" target="_blank">(fmaasde)</a>
+     <br/><strong><a href="https://issues.shopware.com/issues/SW-21344" target="_blank">SW-21344</a> - </strong>Captcha template und jQuery plugin angepasst, sodass das Honeypot-Captcha jetzt serverseitig eingebunden und nicht asynchron geladen wird.
+     <br/><strong><a href="https://issues.shopware.com/issues/SW-21387" target="_blank">SW-21387</a> - </strong>Länder Filter für Kunden-Übersicht im Backend hinzugefügt <a href="https://github.com/pascalheidman-bedarf" target="_blank">(pascalheidman-bedarf)</a>
+     <br/><strong><a href="https://issues.shopware.com/issues/SW-21536" target="_blank">SW-21536</a> - </strong>Neue Funktion um eigene Product Box Layouts im Listing über ein eigenes ExtJS Plugin hinzuzufügen <a href="https://github.com/haebich" target="_blank">(haebich)</a>
+     <br/><strong><a href="https://issues.shopware.com/issues/SW-21576" target="_blank">SW-21576</a> - </strong>Fehlende Adressen Attribute in die sOrder Mail hinzugefügt <a href="https://github.com/FiveDigital" target="_blank">(FiveDigital)</a>
+     <br/><strong><a href="https://issues.shopware.com/issues/SW-21606" target="_blank">SW-21606</a> - </strong>Ajax Varianten Internet Explorer Check entfernt <a href="https://github.com/aragon999" target="_blank">(aragon999)</a>
+     <br/><strong><a href="https://issues.shopware.com/issues/SW-21675" target="_blank">SW-21675</a> - </strong>Die Maße von SVG-Dateien werden jetzt ausgelesen und im Medienobjekt gespeichert <a href="https://github.com/xf-" target="_blank">(xf-)</a>
+     <br/><strong><a href="https://issues.shopware.com/issues/SW-21682" target="_blank">SW-21682</a> - </strong>Neue Lifecycle-Events für Plugins hinzugefügt <a href="https://github.com/fivetide" target="_blank">(fivetide)</a>
+     <br/><strong><a href="https://issues.shopware.com/issues/SW-21769" target="_blank">SW-21769</a> - </strong>Attribute können via CRUD-Service nun mit Standard-Werten angelegt werden <a href="https://github.com/shyim" target="_blank">(shyim)</a>
+     <br/><strong><a href="https://issues.shopware.com/issues/SW-21998" target="_blank">SW-21998</a> - </strong>Model Objekte können nun heruntergeladen werden bei Artikel Downloads <a href="https://github.com/mnaczenski" target="_blank">(mnaczenski)</a>
+     <br/><strong><a href="https://issues.shopware.com/issues/SW-22077" target="_blank">SW-22077</a> - </strong>listStore zu Shopware.apps.Order.view.detai.Window hinzugefügt <a href="https://github.com/pascalheidman-bedarf" target="_blank">(pascalheidman-bedarf)</a>
+     <br/><strong><a href="https://issues.shopware.com/issues/SW-22078" target="_blank">SW-22078</a> - </strong>Artikel hinzufügen wird nun Abverkauf von Variante beachtet <a href="https://github.com/nicoanders" target="_blank">(nicoanders)</a>
+     <br/><strong><a href="https://issues.shopware.com/issues/SW-22079" target="_blank">SW-22079</a> - </strong>Leerraum auf Passwort Zurücksetzen Seite entfernt <a href="https://github.com/721658432" target="_blank">(721658432)</a>
+     <br/><strong><a href="https://issues.shopware.com/issues/SW-22248" target="_blank">SW-22248</a> - </strong>Cronjob Ausführung mit 0 Interval behoben <a href="https://github.com/t2oh4e" target="_blank">(t2oh4e)</a>
+     <br/><strong><a href="https://issues.shopware.com/issues/SW-22249" target="_blank">SW-22249</a> - </strong>ProductBoxLayout wird nun in Manufacturer-Listing für InfiniteScrolling berücksichtigt <a href="https://github.com/JoshuaBehrens" target="_blank">(JoshuaBehrens)</a>
+     <br/><strong><a href="https://issues.shopware.com/issues/SW-22251" target="_blank">SW-22251</a> - </strong>Statische "shopware" font-familly entfernt <a href="https://github.com/timogauweiler" target="_blank">(timogauweiler)</a>
+     <br/><strong><a href="https://issues.shopware.com/issues/SW-22339" target="_blank">SW-22339</a> - </strong>Weiterleitung für alte Hersteller-Urls (SW4) ins neue Hersteller-Listing hinzugefügt
+     <br/><strong><a href="https://issues.shopware.com/issues/SW-22355" target="_blank">SW-22355</a> - </strong>Kleine Korrekturen an Model-Typehints <a href="https://github.com/jochenmanz" target="_blank">(jochenmanz)</a>
+     <br/><strong><a href="https://issues.shopware.com/issues/SW-22356" target="_blank">SW-22356</a> - </strong>In Einkaufswelten lassen sich nun Modal verlinken <a href="https://github.com/alea123" target="_blank">(alea123)</a>
+     <br/><strong><a href="https://issues.shopware.com/issues/SW-22387" target="_blank">SW-22387</a> - </strong>Produkt Informationen zum sARTICLEAVAILABLE Mail Template hinzugefügt <a href="https://github.com/mnaczenski" target="_blank">(mnaczenski)</a>
+     <br/><strong><a href="https://issues.shopware.com/issues/SW-22443" target="_blank">SW-22443</a> - </strong>Open Sans Font Größe verkleinert <a href="https://github.com/tinect" target="_blank">(tinect)</a>
+     <br/><strong><a href="https://issues.shopware.com/issues/SW-22452" target="_blank">SW-22452</a> - </strong>Neue font-face-Definitionen für OpenSans hinzugefügt <a href="https://github.com/tinect" target="_blank">(tinect)</a>
+     <br/><strong><a href="https://issues.shopware.com/issues/SW-22477" target="_blank">SW-22477</a> - </strong>Typehints und Kommentare in verschiedenen Klassen verbessert <a href="https://github.com/nlubisch" target="_blank">(nlubisch)</a>
+     <br/><strong><a href="https://issues.shopware.com/issues/SW-22512" target="_blank">SW-22512</a> - </strong>Mobile Menü Bug bei Custom Pages mit gleicher ID wie Start-Kategorie behoben
+     <br/><strong><a href="https://issues.shopware.com/issues/SW-22554" target="_blank">SW-22554</a> - </strong>Artikel Benachrichtigung Attribute hinzugefügt <a href="https://github.com/dasistweb-gmbh" target="_blank">(dasistweb-gmbh)</a>
+     <br/><strong><a href="https://issues.shopware.com/issues/SW-22568" target="_blank">SW-22568</a> - </strong>AWS Endpoint kann nun konfiguriert werden <a href="https://github.com/hendrikleyendeckers" target="_blank">(hendrikleyendeckers)</a>
+     <br/><strong><a href="https://issues.shopware.com/issues/SW-22591" target="_blank">SW-22591</a> - </strong>Berechtigungsprüfung für sensible Felder bei einzelner User-Abfrage in REST-API hinzugefügt <a href="https://github.com/Isengo1989" target="_blank">(Isengo1989)</a>
+</p>
+                 
+                </div>
+
+	<h3 class="sub-headline">Entwickler-Infos</h3>
+	<h4>Upgrade.md</h4>
+	<p style="margin-bottom: 20px">
+		Alle Änderungen, die die Code-Basis von Shopware betreffen, werden zentral in der Datei <a href="https://github.com/shopware/shopware/blob/5.5/UPGRADE-5.5.md" target="_blank">UPGRADE-5.5.md</a> beschrieben.
+	</p>
+
+	<!-- Github Buttons -->
+	<div class="release-github-buttons">
+		<center>
+			<div class="release-github-buttons-inner">
+				<span><a href="http://community.shopware.com/Downloads_cat_448.html#5.5.4" target="_blank">Weitere Informationen</a></span>
+				<span><a href="https://github.com/shopware/shopware" target="_blank">Zum Github-Repository</a></span>
+				<span><a class="last" href="https://issues.shopware.com/?status=5&swversion=5.5.4#/" target="_blank">Umgesetzte&nbsp;Tickets</a></span>
+			</div>
+		</center>
+	</div>
+</div>";s:10:"release_id";s:3:"111";}s:2:"en";a:5:{s:2:"id";s:3:"213";s:9:"releaseId";N;s:8:"language";s:2:"en";s:9:"changelog";s:19863:"<style type="text/css">
+	.swag-update-changelog a { color: #089eff; }
+	.release-information {
+		position: relative;
+		margin:20px;
+		font-family:'Open Sans', Arial, sans-serif;
+		color: #5C6F7C;
+		font-size:14px;
+	}
+
+	.release-information p {
+		line-height: 20px;
+		margin-bottom:20px;
+	}
+
+	.release-information h1,
+	.release-information h2,
+	.release-information h3,
+	.release-information h4,
+	.release-information h5,
+	.release-information h6 {
+		font-size: 20px;
+		color: #0E384F;
+		font-weight: 600;
+		padding-bottom: 10px;
+		margin-top: 20px;
+		border-bottom: 1px solid #ccd6cd;
+	}
+
+	.release-information h2 {
+		font-size: 30px;
+		font-weight: 700;
+	}
+
+	.release-information h3 {
+		border-bottom: none;
+		color: #089eff;
+		padding-bottom: 30px;
+	}
+
+	.release-information h4 {
+		font-size: 16px;
+		border: none;
+		margin: 0;
+		padding-bottom: 6px;
+	}
+
+	.release-information h2.hero-headline {
+		font-size: 30px;
+		font-weight: bold;
+		text-align: center;
+		padding-bottom: 20px;
+		border-bottom: 0 none;
+		color: #142432;
+	}
+	.release-information h2.hero-headline:after {
+		display: block;
+		content: '';
+		width: 60px;
+		height: 4px;
+		margin: 0 auto;
+		text-align: center;
+		background: #189eff;
+		margin-top: 7px;
+	}
+
+	.release-information h3.sub-headline {
+		color: #142432;
+		font-weight: bold;
+	}
+
+	.release-information h3.sub-headline:after {
+		display: block;
+		content: '';
+		width: 40px;
+		height: 4px;
+		background: #189eff;
+		margin-top: 5px;
+	}
+
+	span.release-update-icon {
+		background: url('data:image/png;base64,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') no-repeat;
+		width: 52px;
+		height: 52px;
+		right: 20px;
+		top: 15px;
+		position: absolute;
+	}
+
+
+	.release-feature-more-info a{
+		color: #089EFF;
+		font-size: 16px;
+	}
+
+
+	.release-feature-entry p {
+		line-height: 20px;
+	}
+
+
+	/*** Github Buttons ***/
+	.release-github-buttons {
+		border-top: 1px solid #ccd6cd;
+		margin-bottom: 40px;
+		width: 100%;
+		float: left;
+	}
+
+	.release-github-buttons-inner {
+		padding-top: 30px;
+	}
+
+	.release-github-buttons a {
+		background: #189eff;
+		border-radius: 4px;
+		border: none;
+		font-weight: bold;
+		color: #fff;
+		text-decoration: none;
+		margin-right: 10px;
+		padding: 10px 25px;
+		text-align: center;
+		font-size: 14px;
+	}
+	.release-github-buttons span {
+		text-align: center;
+	}
+
+	.release-github-buttons a:hover {
+		background: rgb(0,186,241);
+	}
+
+	.release-github-buttons a.last {
+		margin-right: 0;
+	}
+
+	.alert {
+		padding: 10px 20px;
+		margin-bottom: 20px;
+		border: 2px solid rgba(0, 0, 0, 0);
+		border-radius: 5px;
+		-webkit-border-radius: 5px;
+		-moz-border-radius: 5px;
+		line-height: 26px;
+	}
+
+	.alert-info {
+		background: rgba(225, 244, 252, 1);
+		color: rgba(0, 120, 185, 1);
+		border: 1px solid rgba(141, 215, 247, 1);
+		position: relative;
+		padding-right: 80px;
+	}
+
+	.alert-warning, .alert-error {
+		color: #825900;
+		border-color: rgba(255, 183, 28, 0.4);
+		background: rgba(255, 183, 28, 0.2);
+		position: relative;
+		padding-right: 80px;
+	}
+
+	ul li {
+		list-style: disc;
+		margin-left: 20px;
+		padding-bottom: 10px;
+	}
+
+</style>
+
+<!-- Title -->
+<div class="release-information">
+
+	<h2 class="hero-headline">Shopware Version 5.5.4 </h2>
+
+	<div class="alert alert-info">
+		<span class="release-update-icon"></span>
+		<p style="font-weight: 700;">Important update information</p>
+		<p>Please read the <a href="http://en.community.shopware.com/Downloads_cat_725.html" target="_blank">release notes</a> for all releases between your version and the version you want to update to.</p>
+		<p style="margin-bottom: 20px">This update package is cumulative and includes various bug fixes and new features.</p>
+	</div>
+
+	
+
+	<h3 class="sub-headline">Important changes</h3>
+	
+                    
+                        <h4>Security update</h4>
+                        <p>Further information can be found <a href="https://en-community.shopware.com/_detail_2095.html" target="_blank">here</a>.</p>
+                        <br>
+                        <p>SW-23008 - SW-23012: Many thanks to <a href="https://mschop.de" target="_blank">mschop</a> for this report.</p>
+                    
+                
+
+	<h3 class="sub-headline">Changelog</h3>
+	<div style="margin-top: -30px;">
+                    
+<p>
+     <br/><strong><a href="https://issues.shopware.com/issues/SW-17962" target="_blank">SW-17962</a> - </strong>Fixed an issue in the jQuery modal plugin <a href="https://github.com/tyurderi" target="_blank">(tyurderi)</a>
+     <br/><strong><a href="https://issues.shopware.com/issues/SW-18078" target="_blank">SW-18078</a> - </strong>Changed mailer config elements to combo box to simplify configuration
+     <br/><strong><a href="https://issues.shopware.com/issues/SW-19337" target="_blank">SW-19337</a> - </strong>Clarified SELECT statement of article SEO query <a href="https://github.com/s-jakob" target="_blank">(s-jakob)</a>
+     <br/><strong><a href="https://issues.shopware.com/issues/SW-19565" target="_blank">SW-19565</a> - </strong>Cronjob entries are no longer created twice with Plugin Updates <a href="https://github.com/DerRidda" target="_blank">(DerRidda)</a>
+     <br/><strong><a href="https://issues.shopware.com/issues/SW-19823" target="_blank">SW-19823</a> - </strong>Rest api batch mode doctrine recovery fixed <a href="https://github.com/shyim" target="_blank">(shyim)</a>
+     <br/><strong><a href="https://issues.shopware.com/issues/SW-20020" target="_blank">SW-20020</a> - </strong>Rest API configuration groups will be now lowercase compared <a href="https://github.com/DerRidda" target="_blank">(DerRidda)</a>
+     <br/><strong><a href="https://issues.shopware.com/issues/SW-20236" target="_blank">SW-20236</a> - </strong>Root directory is now created with dirname() and not with realpath() anymore to avoid unexpected behaviour when using streams <a href="https://github.com/fionera" target="_blank">(fionera)</a>
+     <br/><strong><a href="https://issues.shopware.com/issues/SW-20377" target="_blank">SW-20377</a> - </strong>Expanded regex used for rewriting media filenames, so that special symbols which were not filtered before are now taken into account aswell <a href="https://github.com/wbob" target="_blank">(wbob)</a>
+     <br/><strong><a href="https://issues.shopware.com/issues/SW-20399" target="_blank">SW-20399</a> - </strong>Document box will be not displayed on new entries <a href="https://github.com/windaishi" target="_blank">(windaishi)</a>
+     <br/><strong><a href="https://issues.shopware.com/issues/SW-20498" target="_blank">SW-20498</a> - </strong>Improved functional testing for plugins <a href="https://github.com/wesolowski" target="_blank">(wesolowski)</a>
+     <br/><strong><a href="https://issues.shopware.com/issues/SW-20583" target="_blank">SW-20583</a> - </strong>Changed properties to meet the requirements for structured data of blog articles  <a href="https://github.com/marvinschroeder" target="_blank">(marvinschroeder)</a>
+     <br/><strong><a href="https://issues.shopware.com/issues/SW-20598" target="_blank">SW-20598</a> - </strong>Expert mode related configuration of snippet management will now be saved <a href="https://github.com/shyim" target="_blank">(shyim)</a>
+     <br/><strong><a href="https://issues.shopware.com/issues/SW-20612" target="_blank">SW-20612</a> - </strong>File permission of templates files now configureable <a href="https://github.com/Crease29" target="_blank">(Crease29)</a>
+     <br/><strong><a href="https://issues.shopware.com/issues/SW-20648" target="_blank">SW-20648</a> - </strong>Use ustid from order when available in documents <a href="https://github.com/Gugiman" target="_blank">(Gugiman)</a>
+     <br/><strong><a href="https://issues.shopware.com/issues/SW-20708" target="_blank">SW-20708</a> - </strong>Improved code style <a href="https://github.com/uehler" target="_blank">(uehler)</a>
+     <br/><strong><a href="https://issues.shopware.com/issues/SW-20735" target="_blank">SW-20735</a> - </strong>Added changetime to sArticles variable <a href="https://github.com/larsbo" target="_blank">(larsbo)</a>
+     <br/><strong><a href="https://issues.shopware.com/issues/SW-21126" target="_blank">SW-21126</a> - </strong>Fix empty baskets for onetime customers with SLT cookies
+     <br/><strong><a href="https://issues.shopware.com/issues/SW-21161" target="_blank">SW-21161</a> - </strong>New grunt task "development" <a href="https://github.com/dasistweb-gmbh" target="_blank">(dasistweb-gmbh)</a>
+     <br/><strong><a href="https://issues.shopware.com/issues/SW-21180" target="_blank">SW-21180</a> - </strong>API Signatures will be auto configured <a href="https://github.com/fivetide" target="_blank">(fivetide)</a>
+     <br/><strong><a href="https://issues.shopware.com/issues/SW-21229" target="_blank">SW-21229</a> - </strong>Free text field managment can have now fields with country selection <a href="https://github.com/pascalheidman-bedarf" target="_blank">(pascalheidman-bedarf)</a>
+     <br/><strong><a href="https://issues.shopware.com/issues/SW-21307" target="_blank">SW-21307</a> - </strong>Ajax search uses now also min search term <a href="https://github.com/fmaasde" target="_blank">(fmaasde)</a>
+     <br/><strong><a href="https://issues.shopware.com/issues/SW-21344" target="_blank">SW-21344</a> - </strong>Changed the captcha template and the corresponding jQuery plugin, so that the honeypot captcha is now included serverside instead of being fetched asynchronously.
+     <br/><strong><a href="https://issues.shopware.com/issues/SW-21387" target="_blank">SW-21387</a> - </strong>Added country filter for backend's customer overview <a href="https://github.com/pascalheidman-bedarf" target="_blank">(pascalheidman-bedarf)</a>
+     <br/><strong><a href="https://issues.shopware.com/issues/SW-21536" target="_blank">SW-21536</a> - </strong>New feature to add own product box layouts to the listing via an own ExtJS plugin <a href="https://github.com/haebich" target="_blank">(haebich)</a>
+     <br/><strong><a href="https://issues.shopware.com/issues/SW-21576" target="_blank">SW-21576</a> - </strong>Added missing address attributes to sOrder mail <a href="https://github.com/FiveDigital" target="_blank">(FiveDigital)</a>
+     <br/><strong><a href="https://issues.shopware.com/issues/SW-21606" target="_blank">SW-21606</a> - </strong>Removed Internet Explorer check in Ajax Variants <a href="https://github.com/aragon999" target="_blank">(aragon999)</a>
+     <br/><strong><a href="https://issues.shopware.com/issues/SW-21675" target="_blank">SW-21675</a> - </strong>The dimensions of svg files are now persisted with the media object <a href="https://github.com/xf-" target="_blank">(xf-)</a>
+     <br/><strong><a href="https://issues.shopware.com/issues/SW-21682" target="_blank">SW-21682</a> - </strong>Added new lifecycle-events for plugins <a href="https://github.com/fivetide" target="_blank">(fivetide)</a>
+     <br/><strong><a href="https://issues.shopware.com/issues/SW-21769" target="_blank">SW-21769</a> - </strong>Attributes can be created with default values via CRUD-service <a href="https://github.com/shyim" target="_blank">(shyim)</a>
+     <br/><strong><a href="https://issues.shopware.com/issues/SW-21998" target="_blank">SW-21998</a> - </strong>Model objects can be now downloaded from product downloads <a href="https://github.com/mnaczenski" target="_blank">(mnaczenski)</a>
+     <br/><strong><a href="https://issues.shopware.com/issues/SW-22077" target="_blank">SW-22077</a> - </strong>Added listStore to Shopware.apps.Order.view.detai.Window <a href="https://github.com/pascalheidman-bedarf" target="_blank">(pascalheidman-bedarf)</a>
+     <br/><strong><a href="https://issues.shopware.com/issues/SW-22078" target="_blank">SW-22078</a> - </strong>Adding items to the cart will be now laststock used from variant <a href="https://github.com/nicoanders" target="_blank">(nicoanders)</a>
+     <br/><strong><a href="https://issues.shopware.com/issues/SW-22079" target="_blank">SW-22079</a> - </strong>Removed empty space on password reset page <a href="https://github.com/721658432" target="_blank">(721658432)</a>
+     <br/><strong><a href="https://issues.shopware.com/issues/SW-22248" target="_blank">SW-22248</a> - </strong>Cronjob execution with interval 0 fixed <a href="https://github.com/t2oh4e" target="_blank">(t2oh4e)</a>
+     <br/><strong><a href="https://issues.shopware.com/issues/SW-22249" target="_blank">SW-22249</a> - </strong>ProductBoxLayout is now being considered for infinite scrolling in manufacturer listing  <a href="https://github.com/JoshuaBehrens" target="_blank">(JoshuaBehrens)</a>
+     <br/><strong><a href="https://issues.shopware.com/issues/SW-22251" target="_blank">SW-22251</a> - </strong>Removed static "shopware" font family <a href="https://github.com/timogauweiler" target="_blank">(timogauweiler)</a>
+     <br/><strong><a href="https://issues.shopware.com/issues/SW-22339" target="_blank">SW-22339</a> - </strong>Added forwarding to new manufacturer listing for old supplier urls (SW4)
+     <br/><strong><a href="https://issues.shopware.com/issues/SW-22355" target="_blank">SW-22355</a> - </strong>Small corrections on Model typehints <a href="https://github.com/jochenmanz" target="_blank">(jochenmanz)</a>
+     <br/><strong><a href="https://issues.shopware.com/issues/SW-22356" target="_blank">SW-22356</a> - </strong>Modal can now be linked in shopping worlds <a href="https://github.com/alea123" target="_blank">(alea123)</a>
+     <br/><strong><a href="https://issues.shopware.com/issues/SW-22387" target="_blank">SW-22387</a> - </strong>Added product information to sARTICLEAVAILABLE <a href="https://github.com/mnaczenski" target="_blank">(mnaczenski)</a>
+     <br/><strong><a href="https://issues.shopware.com/issues/SW-22443" target="_blank">SW-22443</a> - </strong>Open Sans file size reduced <a href="https://github.com/tinect" target="_blank">(tinect)</a>
+     <br/><strong><a href="https://issues.shopware.com/issues/SW-22452" target="_blank">SW-22452</a> - </strong>Added new font-face-definitions for OpenSans <a href="https://github.com/tinect" target="_blank">(tinect)</a>
+     <br/><strong><a href="https://issues.shopware.com/issues/SW-22477" target="_blank">SW-22477</a> - </strong>Improved typehints and comments in some classes <a href="https://github.com/nlubisch" target="_blank">(nlubisch)</a>
+     <br/><strong><a href="https://issues.shopware.com/issues/SW-22512" target="_blank">SW-22512</a> - </strong>Fixed mobile menu bug of custom pages that have the same id as the root category
+     <br/><strong><a href="https://issues.shopware.com/issues/SW-22554" target="_blank">SW-22554</a> - </strong>Product notification have now attributes <a href="https://github.com/dasistweb-gmbh" target="_blank">(dasistweb-gmbh)</a>
+     <br/><strong><a href="https://issues.shopware.com/issues/SW-22568" target="_blank">SW-22568</a> - </strong>AWS Endpoint can be now configured <a href="https://github.com/hendrikleyendeckers" target="_blank">(hendrikleyendeckers)</a>
+     <br/><strong><a href="https://issues.shopware.com/issues/SW-22591" target="_blank">SW-22591</a> - </strong>Added privilege check for sensitive fields for getting a single user with the REST-API <a href="https://github.com/Isengo1989" target="_blank">(Isengo1989)</a>
+</p>
+                    
+                </div>
+
+	<h3 class="sub-headline">Developer information</h3>
+	<h4>Upgrade.md</h4>
+	<p style="margin-bottom: 20px">
+		All changes related code base of Shopware are documented in the <a href="https://github.com/shopware/shopware/blob/5.5/UPGRADE-5.5.md" target="_blank">UPGRADE-5.5.md</a>.
+	</p>
+
+	<!-- Github Buttons -->
+	<div class="release-github-buttons">
+		<center>
+			<div class="release-github-buttons-inner">
+				<span><a href="http://en.community.shopware.com/Downloads_cat_725.html#5.5.4" target="_blank">More information</a></span>
+				<span><a href="https://github.com/shopware/shopware" target="_blank">Github repository</a></span>
+				<span><a class="last" href="https://issues.shopware.com/?status=5&swversion=5.5.4#/" target="_blank">Resolved issues</a></span>
+			</div>
+		</center>
+	</div>
+</div>";s:10:"release_id";s:3:"111";}}s:3:"uri";s:106:"http://releases.s3.shopware.com.s3.amazonaws.com/update_5.5.4_319de4fc3888a5071314c6632121ca3406b8bf39.zip";s:4:"size";s:8:"42543325";s:4:"sha1";s:40:"319de4fc3888a5071314c6632121ca3406b8bf39";s:6:"checks";a:6:{i:0;a:3:{s:4:"type";s:10:"phpversion";s:5:"value";s:5:"5.6.4";s:5:"level";i:20;}i:1;a:3:{s:4:"type";s:12:"mysqlversion";s:5:"value";s:3:"5.5";s:5:"level";i:20;}i:2;a:3:{s:4:"type";s:12:"licensecheck";s:5:"value";a:1:{s:11:"licenseKeys";a:5:{i:0;s:21:"SwagEnterprisePremium";i:1;s:21:"SwagEnterpriseCluster";i:2;s:14:"SwagEnterprise";i:3;s:14:"SwagCommercial";i:4;s:8:"SwagCore";}}s:5:"level";i:20;}i:3;a:3:{s:4:"type";s:15:"emotiontemplate";s:5:"value";N;s:5:"level";i:20;}i:4;a:3:{s:4:"type";s:8:"writable";s:5:"value";a:2:{i:0;s:5:"files";i:1;s:9:"recovery/";}s:5:"level";i:20;}i:5;a:3:{s:4:"type";s:8:"writable";s:5:"value";a:1:{i:0;s:1:"/";}s:5:"level";i:10;}}s:12:"release_date";N;s:18:"signagure_verified";b:1;}

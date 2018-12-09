@@ -1,0 +1,54 @@
+<?xml version="1.0" encoding="utf-8"?>
+<config xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+        xsi:noNamespaceSchemaLocation="../../../../engine/Shopware/Components/Plugin/schema/config.xsd">
+    <elements>
+        <element type="boolean">
+            <name>frontendblocks</name>
+            <label>Show smarty blocks as HTML comments on page source code</label>
+            <value>1</value>
+        </element>
+        <element type="boolean">
+            <name>frontendblocksTemplate</name>
+            <label>Show template file in html comment</label>
+            <value>1</value>
+        </element>
+        <element type="textarea">
+            <name>whitelistIP</name>
+            <label>Whitelist for Toolbar</label>
+            <options>
+                <helpText>Multiple IPs with a line break</helpText>
+            </options>
+        </element>
+        <element type="boolean">
+            <name>whitelistIPProfile</name>
+            <label>Profile when Toolbar is disabled with IP Whitelist</label>
+            <value>1</value>
+        </element>
+        <element type="number">
+            <name>maxProfiles</name>
+            <label>Max amount profiles, which should be saved</label>
+            <value>50</value>
+            <description>You can disable it with 0 amount</description>
+        </element>
+        <element type="number">
+            <name>dumpDepth</name>
+            <label>Depth of vardump in profiler detail</label>
+            <value>20</value>
+        </element>
+        <element type="number">
+            <name>dumpSize</name>
+            <label>Maximum size of the vardump (-1 equals Unlimited)</label>
+            <value>2500</value>
+        </element>
+        <element type="boolean">
+            <name>jsEvents</name>
+            <label>Output Javascript events to console</label>
+            <value>1</value>
+        </element>
+        <element type="boolean">
+            <name>varDumpServer</name>
+            <label>Enable var-dump server</label>
+            <value>0</value>
+        </element>
+    </elements>
+</config>
